@@ -1,0 +1,354 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Montserrat', sans-serif;
+}
+a{
+text-decoration: none;
+}
+a:hover{
+text-decoration: none;
+}
+/*header start*/
+.header{
+width: 100%;
+padding: 10px 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+color: #1f4f87;
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 1.2em;
+transition: 0.5s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+color: #FF5733 ;
+}
+.navbar-expand-lg .navbar-nav .nav-link:focus{
+color: #FF5733 ;
+}
+/*header endede*/
+/******************************/
+/******************************/
+/*slider start*/
+.slider{
+width: 100%;
+padding: 50px 0px;
+background: url("../images/slider.png") center top no-repeat;
+background-size: cover ;
+}
+.slider h1{
+font-size: 55px;
+font-weight: 500;
+text-align: center;
+color: #fff;
+line-height: 1.2em;
+text-transform: uppercase;
+padding-bottom: 20px;
+padding: 120px 0px 0px 0px
+}
+.slider .arrow{
+width: 100%;
+padding: 100px 0px;
+position: relative;
+}
+.slider .arrow img{
+position: absolute;
+padding: 70px 0px 0px 0px;
+}
+/*slider ended*/
+/******************************/
+/******************************/
+/*intro started*/
+.intro{
+width:100% ;
+padding: 80px 0px;
+}
+.intro .line{
+margin: 60px 0px 10px;
+}
+.intro h1{
+font-size: 42px;
+line-height: 1.7em;
+text-transform: uppercase;
+font-weight: 700;
+color:#28377e;
+margin: 0px 0px 10px 0px;
+}
+.intro p{
+font-size: 14px;
+line-height: 1.5em;
+font-weight: 500;
+color:#b0b0b1;
+}
+.intro .inner-img{
+width: 100%;
+text-align: center;
+}
+/*intro ended*/
+/******************************/
+/******************************/
+/*features started*/
+.features{
+width: 100%;
+padding: 80px 0px;
+background: url(../images/features-bg.png) no-repeat;
+background-position: right bottom;
+}
+.features .title{
+width: 100%;
+padding: 80px 0px;
+text-align: center;
+text-transform: uppercase;
+}
+.features .title img{
+margin-bottom: 20px;
+}
+.features .title h1{
+font-size: 32px;
+line-height: 1.7em;
+text-transform: uppercase;
+font-weight: 700;
+color:#28377e;
+}
+.features .inner-box{
+width: 100%;
+margin-bottom: 30px;
+position: relative;
+}
+.features .inner-box .inner-text{
+width: 100%;
+height: 100%;
+position: absolute;
+text-align: center;
+left: -10%;
+top: 40%;
+}
+.features .inner-box .inner-text h4{
+font-size: 20px;
+line-height: 1.5em;
+text-transform: uppercase;
+font-weight: 600;
+color:#fff;
+}
+.features .inner-box .inner-text .arrow-right{
+width: 50%;
+margin: 125px 0px 0px 105px;
+}
+/*features closed*/
+/******************************/
+/******************************/
+/*attorneys started*/
+.attorney{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/attorneys-bg.png") ;
+    background-color: #f7f8f8;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.attorney .title{
+    width: 100%;
+    padding: 80px 0px;
+    text-align: left;
+}
+.attorney .title img{
+    margin-bottom: 10px;
+	
+}
+.attorney .title h2{
+    font-size: 42px;
+    line-height: 1.7em;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+    color:#fff;
+}
+.attorney .title p{
+    width: 70%;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #929dcf;
+}
+.attorney .title .btn-link {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #f2622c;
+    text-decoration: none;
+    padding: 0px;
+}
+.attorney .inner-box{
+    width: 100%;
+    margin: 0 0 30px;
+    position: relative;
+}
+.attorney .inner-box img{
+    width: 100%;
+}
+.attorney .inner-box .inner-text{
+    width: 100%;
+    position: absolute;
+    left: 5%;
+    top: 74%;
+}
+.attorney .inner-box .inner-text h4{
+    font-size: 22px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#fff;
+    text-align: left;
+}
+/*attorneys ended*/
+/******************************/
+/******************************/
+/*languages started*/
+.language{
+width: 100%;
+padding: 40px 0px;
+}
+.language .title{
+text-align: center;
+width: 100%;
+padding: 120px 0px;
+}
+.language .title h1{
+font-size: 32px;
+line-height: 1.7em;
+text-transform: uppercase;
+font-weight: 700;
+color:#28377e;
+}
+.language .inner-language{
+width: 100%;
+}
+.language .inner-language h4{
+font-size: 20px;
+line-height: 1.7em;
+text-transform: uppercase;
+font-weight: 600;
+color:#28377e;
+}
+.language .inner-language p{
+width: 80%;
+font-size: 14px;
+line-height: 1.5em;
+font-weight: 500;
+color:#b0b0b1;
+}
+.language .inner-language .btn-link{
+font-size: 14px;
+line-height: 1.2em;
+font-weight: 600;
+text-transform: uppercase;
+color: #f2622c;
+text-decoration: none;
+padding: 0px;
+transition: .5s;
+}
+.language .inner-language .btn-link:hover{
+color:#28377e;
+}
+.language .inner-language .btn-link:focus{
+color:#28377e;
+}
+/*languages ended*/
+/******************************/
+/******************************/
+/*contact us started*/
+.contact{
+width: 100%;
+padding: 80px 0px;
+background: #28377e;
+}
+.contact .title{
+text-align: center;
+width: 100%;
+padding: 50px 0px;
+}
+.contact .title h1{
+font-size: 32px;
+line-height: 1.7em;
+text-transform: uppercase;
+font-weight: 600;
+color:#fff;
+}
+.contact .title img{
+margin-bottom: 10px;
+}
+.contact .form{
+width: 50%;
+margin: 0px auto;
+}
+.contact .form-control{
+border:none;
+border-bottom: 2px solid #4759a7;
+border-radius: 0px;
+background:#28377e;
+padding: 0px 0px 3px 0px;
+}
+.contact .form-control::placeholder{
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+color: #fff;
+}
+.contact .form .btn{
+color: #fff;
+background: #f2622c;
+width: 200px;
+margin: 50px auto 0;
+border-radius: 0px;
+display: block;
+transition: 0.5s;
+}
+.contact .form .btn:hover{
+color: #C7D53D  ;
+background: #28377e;
+}
+.contact .form .btn:focus{
+color: #C7D53D  ;
+background: #28377e;
+}
+/*contact us ended*/
+/******************************/
+/******************************/
+/*footer started*/
+.footer{
+width: 100%;
+padding: 30px 0px;
+background: #0c1234;
+}
+.footer .inner-footer{
+width: 100%;
+color: #616ca8;
+padding: 15px 0px 0px 0px
+}
+.footer .inner-footer a{
+text-decoration: none;
+color: #fff;
+padding-right: 12px;
+padding-left: 8px;
+}
+.footer .social-icons{
+text-align: right;
+width: 100%;
+padding: 15px 0px 0px 0px;
+}
+.footer .social-icons a{
+text-decoration: none;
+color: #fff;
+padding-right: 12px;
+}
+/*footer ended*/
